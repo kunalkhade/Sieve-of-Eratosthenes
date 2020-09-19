@@ -7,9 +7,9 @@ all prime numbers up to any given limit. It uses iterative marking as composite 
 are generated as a sequence of numbers starting from that prime, with constant difference between them that is equal to that prime. This is the sieve’s key distinction from using trial division to sequentially test each candidate number
 for divisibility by each prime.
 
-Shared Element : limit \\
-Private Element : i \\
-Thread Count : 8 \\
+Shared Element : limit | 
+Private Element : i |
+Thread Count : 8 
 
 ## Compilation process 
 1 . gcc -g -Wall -fopenmp -o se SieveEratosthenes.c -lm
