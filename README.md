@@ -17,5 +17,6 @@ Complete code run successfully till 1000 values but over the thousand
 it create problem in multi threading
 
 Dynamic Scheduling : 0.0534 millisecond (1000 iteration)
+
 Static Scheduling : 0.0135 millisecond (1000 iteration)
 
